@@ -55,6 +55,28 @@ After execution, a report is generated in the Playwright report folder:
 npx playwright show-report
 ```
 
+## Maintain the project with ESLint and Prettier
+
+This project also uses ESLint and Prettier to keep the codebase clean, consistent, and easier to maintain.
+
+Run lint checks:
+
+```bash
+npm run lint
+```
+
+Automatically fix lint issues:
+
+```bash
+npm run lint:fix
+```
+
+Format the project files:
+
+```bash
+npm run format
+```
+
 ## Additional work for a long-term scalable project
 
 This project is already structured to support future growth. The current setup lays the foundation for a more maintainable and scalable automation framework by:
